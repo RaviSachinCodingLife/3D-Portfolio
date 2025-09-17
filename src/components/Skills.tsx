@@ -24,7 +24,6 @@ import Sass from "../assets/img/skills/sass.png";
 import Tailwind from "../assets/img/skills/tailwind.png";
 import Typescript from "../assets/img/skills/typescript.png";
 
-// Skills array
 const skills = [
   { icon: ReactJs, text: "React" },
   { icon: JavaScript, text: "JavaScript" },
@@ -103,7 +102,7 @@ const FloatingSkillCard: React.FC<{
             alt={skill.text}
             width={50}
             height={50}
-            style={{ maxWidth: "100%", height: "auto" }}
+            style={{ maxWidth: "100%", height: "auto", minHeight: "50px" }}
           />
           <Typography
             sx={{
