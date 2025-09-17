@@ -7,22 +7,22 @@ import ReactJs from "../assets/img/Skills/Reactjs.png";
 import JavaScript from "../assets/img/Skills/Javascript.png";
 import Canva from "../assets/img/Skills/Canva.svg";
 import ChartJs from "../assets/img/Skills/Chartjs.png";
-import Figma from "../assets/img/Skills/Figma.svg";
-import Github from "../assets/img/Skills/Github.png";
-import Npm from "../assets/img/Skills/Npm.png";
-import Angular from "../assets/img/Skills/Angular.png";
-import AntDesign from "../assets/img/Skills/Ant-design.png";
-import Bootstrap from "../assets/img/Skills/Bootstrap.png";
+import Figma from "../assets/img/Skills/Figma1.svg";
+import Github from "../assets/img/Skills/Github2.png";
+import Npm from "../assets/img/Skills/Npm2.png";
+import Angular from "../assets/img/Skills/Angular13.png";
+import AntDesign from "../assets/img/Skills/Ant-design2.png";
+import Bootstrap from "../assets/img/Skills/Bootstrap5.png";
 import CSS3 from "../assets/img/Skills/Css3.png";
-import Firebase from "../assets/img/Skills/Firebase.png";
-import GraphQl from "../assets/img/Skills/Graphql.png";
+import Firebase from "../assets/img/Skills/Firebase1.png";
+import GraphQl from "../assets/img/Skills/Graphql5.png";
 import Html5 from "../assets/img/Skills/Html5.png";
 import Jira from "../assets/img/Skills/Jira.svg";
-import Mui from "../assets/img/Skills/Mui.png";
+import Mui from "../assets/img/Skills/Mui5.png";
 import Redux from "../assets/img/Skills/Redux.svg";
-import Sass from "../assets/img/Skills/Sass.png";
-import Tailwind from "../assets/img/Skills/Tailwind.png";
-import Typescript from "../assets/img/Skills/Typescript.png";
+import Sass from "../assets/img/Skills/Sass2.png";
+import Tailwind from "../assets/img/Skills/Tailwind2.png";
+import Typescript from "../assets/img/Skills/Typescript2.png";
 
 const skills = [
   { icon: ReactJs, text: "React" },
