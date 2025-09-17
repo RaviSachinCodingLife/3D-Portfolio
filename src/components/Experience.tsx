@@ -238,10 +238,7 @@ const ExperienceTimeline3D: React.FC = () => {
               {grouped[+year].map((exp, i) => (
                 <Grid
                   key={i}
-                  item
-                  xs={12}
-                  sm={6}
-                  md={4}
+                  size={{ xs: 12, sm: 6, md: 4 }}
                   sx={{
                     display: "flex",
                     justifyContent: {

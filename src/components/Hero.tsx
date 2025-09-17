@@ -1,4 +1,3 @@
-// src/components/Hero.tsx
 import React, { useRef, useEffect, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import {
@@ -109,6 +108,8 @@ function FloatingShape({ type = "box", color = "#ff00ff", position }: any) {
   );
 }
 
+const MotionBox = motion(Box);
+
 export const Hero: React.FC = () => {
   const text = useTypewriter([
     "Frontend Developer",
@@ -123,7 +124,7 @@ export const Hero: React.FC = () => {
       sx={{
         minHeight: "100vh",
         display: "flex",
-        flexDirection: { xs: "column", sm: "column", md: "row" }, 
+        flexDirection: { xs: "column", sm: "column", md: "row" },
         alignItems: "center",
         justifyContent: "space-between",
         px: { xs: 2, sm: 4, md: 8 },
@@ -132,15 +133,15 @@ export const Hero: React.FC = () => {
         color: "white",
       }}
     >
-      <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-        style={{
+      <MotionBox
+        sx={{
           maxWidth: "100%",
           width: { xs: "100%", sm: "90%", md: "50%" },
           textAlign: { xs: "center", sm: "center", md: "left" },
         }}
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
       >
         <Typography
           variant="h3"
@@ -269,7 +270,7 @@ export const Hero: React.FC = () => {
             />
           </motion.a>
         </Stack>
-      </motion.div>
+      </MotionBox>
 
       <Box
         sx={{

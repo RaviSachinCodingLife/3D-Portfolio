@@ -30,7 +30,7 @@ export const Footer = () => {
         position: "relative",
         background: "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
         color: "#fff",
-        py: { xs: 4, sm: 5, md: 6 }, 
+        py: { xs: 4, sm: 5, md: 6 },
         overflow: "hidden",
       }}
     >
@@ -66,12 +66,12 @@ export const Footer = () => {
         spacing={2}
         sx={{ position: "relative", zIndex: 2 }}
       >
-        <Grid item xs={12}>
+        <Grid size={{ xs: 12 }}>
           <Box
             sx={{
               display: "flex",
               justifyContent: "center",
-              gap: { xs: 2, sm: 3, md: 4 }, 
+              gap: { xs: 2, sm: 3, md: 4 },
             }}
           >
             {socialLinks.map((link, index) => (
@@ -103,13 +103,13 @@ export const Footer = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid size={{ xs: 12 }}>
           <Typography
             variant="body2"
             sx={{
               color: "#aaa",
               textAlign: "center",
-              fontSize: { xs: "0.75rem", sm: "0.85rem", md: "1rem" }, 
+              fontSize: { xs: "0.75rem", sm: "0.85rem", md: "1rem" },
               mt: 2,
             }}
           >
