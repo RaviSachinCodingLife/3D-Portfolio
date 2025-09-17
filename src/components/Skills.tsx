@@ -13,7 +13,7 @@ import Npm from "../assets/img/Skills/Npm2.png";
 import Angular from "../assets/img/Skills/Angular13.png";
 import AntDesign from "../assets/img/Skills/Ant-design2.png";
 import Bootstrap from "../assets/img/Skills/Bootstrap5.png";
-import CSS3 from "../assets/img/Skills/Css3.png";
+import CSS3 from "../assets/img/Skills/Css34.png";
 import Firebase from "../assets/img/Skills/Firebase1.png";
 import GraphQl from "../assets/img/Skills/Graphql5.png";
 import Html5 from "../assets/img/Skills/Html5.png";
