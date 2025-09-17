@@ -7,13 +7,13 @@ import ReactJs from "../assets/img/skills/react.png";
 import JavaScript from "../assets/img/skills/js.png";
 import Canva from "../assets/img/skills/Canva.svg";
 import ChartJs from "../assets/img/skills/Chart.js.png";
-import Figma from "../assets/img/skills/Figma.svg";
+import Figma from "../assets/img/skills/Figma.png";
 import Github from "../assets/img/skills/github.png";
 import Npm from "../assets/img/skills/Npm.png";
 import Angular from "../assets/img/skills/angular.png";
 import AntDesign from "../assets/img/skills/ant design.png";
 import Bootstrap from "../assets/img/skills/bootstrap.png";
-import CSS from "../assets/img/skills/css3.png";
+import CSS3 from "../assets/img/skills/css3.png";
 import Firebase from "../assets/img/skills/firebase.png";
 import GraphQl from "../assets/img/skills/graphql.png";
 import Html5 from "../assets/img/skills/html.png";
@@ -24,6 +24,7 @@ import Sass from "../assets/img/skills/sass.png";
 import Tailwind from "../assets/img/skills/tailwind.png";
 import Typescript from "../assets/img/skills/typescript.png";
 
+// Skills array
 const skills = [
   { icon: ReactJs, text: "React" },
   { icon: JavaScript, text: "JavaScript" },
@@ -35,7 +36,7 @@ const skills = [
   { icon: Angular, text: "Angular" },
   { icon: AntDesign, text: "Ant Design" },
   { icon: Bootstrap, text: "Bootstrap" },
-  { icon: CSS, text: "CSS3" },
+  { icon: CSS3, text: "CSS3" },
   { icon: Firebase, text: "Firebase" },
   { icon: GraphQl, text: "GraphQl" },
   { icon: Html5, text: "Html5" },
@@ -120,7 +121,7 @@ const FloatingSkillCard: React.FC<{
 };
 
 const Skills: React.FC = () => {
-  const cardsPerRow = { xs: 3, sm: 4, md: 5 }; 
+  const cardsPerRow = { xs: 3, sm: 4, md: 5 };
   const spacingX = { xs: 8, sm: 10, md: 12 };
   const spacingY = { xs: 5, sm: 6, md: 7 };
   const spacingZ = 2;
