@@ -71,7 +71,6 @@ export const NavBar: React.FC = () => {
           <ListItem
             key={item.name}
             component="div"
-            button
             onClick={() => handleNavClick(item.name)}
             sx={{
               borderRadius: "12px",
@@ -108,7 +107,7 @@ export const NavBar: React.FC = () => {
           sx={{
             display: "flex",
             justifyContent: "space-between",
-            px: { xs: 1, sm: 2, md: 6 }, 
+            px: { xs: 1, sm: 2, md: 6 },
           }}
         >
           <Typography
@@ -117,7 +116,7 @@ export const NavBar: React.FC = () => {
               flexGrow: 1,
               cursor: "pointer",
               fontWeight: "bold",
-              fontSize: { xs: "1rem", sm: "1.3rem", md: "1.5rem" }, 
+              fontSize: { xs: "1rem", sm: "1.3rem", md: "1.5rem" },
               background: "linear-gradient(90deg, #00f7ff, #a855f7)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
