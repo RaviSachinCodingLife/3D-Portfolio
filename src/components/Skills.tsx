@@ -4,7 +4,7 @@ import { OrbitControls, Html, Stars } from "@react-three/drei";
 import { Box, Typography, Paper } from "@mui/material";
 import * as THREE from "three";
 import ReactJs from "../assets/img/Skills/Reactjs.png";
-import JavaScript from "../assets/img/Skills/Js.png";
+import JavaScript from "../assets/img/Skills/Javascript.png";
 import Canva from "../assets/img/Skills/Canva.svg";
 import ChartJs from "../assets/img/Skills/Chartjs.png";
 import Figma from "../assets/img/Skills/Figma.svg";
